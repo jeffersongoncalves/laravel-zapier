@@ -3,7 +3,11 @@
     "description": "Zapier integration for Laravel: manage Zaps, tasks, profile and trigger Zapier webhooks.",
     "keywords": [
         "laravel",
-        "laravel-zapier"
+        "laravel-zapier",
+        "zapier",
+        "webhooks",
+        "automation",
+        "integration"
     ],
     "homepage": "https://github.com/jeffersongoncalves/laravel-zapier",
     "license": "MIT",
@@ -27,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jeffersongoncalves\\Zapier\\": "src/"
+            "JeffersonGoncalves\\Zapier\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jeffersongoncalves\\Zapier\\Tests\\": "tests/"
+            "JeffersonGoncalves\\Zapier\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -52,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jeffersongoncalves\\Zapier\\ZapierServiceProvider"
+                "JeffersonGoncalves\\Zapier\\ZapierServiceProvider"
             ],
             "aliases": {
-                "Zapier": "Jeffersongoncalves\\Zapier\\Facades\\Zapier"
+                "Zapier": "JeffersonGoncalves\\Zapier\\Facades\\Zapier"
             }
         }
     },

@@ -1,3 +1,5 @@
 <?php
 
-uses(Jeffersongoncalves\Zapier\Tests\TestCase::class)->in('Feature', 'Unit');
+use JeffersonGoncalves\Zapier\Tests\TestCase;
+
+uses(TestCase::class)->in('Feature', 'Unit');
